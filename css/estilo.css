@@ -3,10 +3,18 @@
     margin:0px;
     padding:0px;
     font-family: tahoma;
-    background-color: 
+    /* background-color:  */
+}  
     
 
+.header {
+width:auto;    
+
+
 }
+
+
+
 
 .icon-social{
     display:flex;
@@ -14,6 +22,7 @@
     gap: 10px;
     padding: 10px;
     font-size: 30px;
+    
 }
 
 a{
@@ -34,8 +43,15 @@ a:hover{
     margin-left: 50px;
     margin-right:50px;
     margin-top: -40px;
-    
+    width :"100%";
 }
+
+.logo-menu image{
+    width:100%;
+
+}    
+    
+
 
 .item-menu{
     display:flex;
@@ -64,6 +80,7 @@ margin-top: -50
     display: flex;
     justify-content: center;
     margin-top: 100px;
+     width:100%;
     
     
     
@@ -71,18 +88,24 @@ margin-top: -50
 }
 
 .img-about{
-    max-width: 700px;
+    /* max-width: 700px; */
+    width: 50%;
+    height: 50%;
     margin-right: 100px;
     border-radius:10px;
     box-shadow: 10px 10px 50px;
+    margin-top: 300px;
 }
 
 .text-about{
+
     margin-top:40px;
     margin-left: 80px;
     margin-right: 80px;
     font-size: 20px;
     color: brown;
+    background-color: aliceblue;
+    padding: 5%;
     
 }
 
@@ -103,6 +126,7 @@ margin-top: -50
     justify-content:space-around;
     border-radius: 10px;
     margin-bottom: 100px;
+   
     
     
 
@@ -113,6 +137,7 @@ margin-top: -50
     width:  400px;
     height: 400px;
     transition: 0.3s;
+    
     
 
 }
@@ -159,6 +184,53 @@ button{
     border:none;
 }
 
+
+
+
+@media screen and (max-width: 1000px) {
+
+    .about, .destaques, .icon-social, .image-destaques, .img-about, .input-contato, .item-menu, .logo-footer, .logo-menu, .message-contato, .section-about, .sushi-footer {
+    display: block;
+    
+}
+
+.text-about {
+
+
+margin-bottom:100px;
+
+}
+
+.logo-menu img, .sushi-footer img {
+width: 100%;
+
+
+
+
+
+}
+
+.image-destaques, .message-contato  {
+ width: 300px;
+ height: 400px;
+ margin: auto;
+ object-fit: cover;
+
+}
+
+.img-about {
+
+    margin: auto;
+    width: 350px;
+    object-fit: cover;
+}
+   
+
+
+
+
+
+}
 
 
 
