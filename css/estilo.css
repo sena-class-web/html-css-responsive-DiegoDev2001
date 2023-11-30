@@ -1,0 +1,164 @@
+*{
+    
+    margin:0px;
+    padding:0px;
+    font-family: tahoma;
+    background-color: 
+    
+
+}
+
+.icon-social{
+    display:flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+a{
+    color: black;
+    transition: 0.3s;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: purple;
+    transition: 0.3s;
+}
+
+.logo-menu{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right:50px;
+    margin-top: -40px;
+    
+}
+
+.item-menu{
+    display:flex;
+    gap: 40px;
+    list-style: none;
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.top-banner{
+    margin-top: 60px;
+}
+
+.section-about{
+background-image: url("sushi-6.png");
+padding: 50px;
+margin-top: -50
+
+
+
+    
+
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+    
+    
+    
+}
+
+.img-about{
+    max-width: 700px;
+    margin-right: 100px;
+    border-radius:10px;
+    box-shadow: 10px 10px 50px;
+}
+
+.text-about{
+    margin-top:40px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+    color: brown;
+    
+}
+
+
+.title-destaques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+
+    
+}
+
+.destaques {
+
+    display:flex;
+    justify-content:space-around;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    
+    
+
+}
+
+.image-destaques{
+    border-radius:10px;
+    width:  400px;
+    height: 400px;
+    transition: 0.3s;
+    
+
+}
+
+.image-destaques:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+
+}
+
+.sushi-footer{
+    background-color:#E4885B;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.message-contato{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+button{
+    width:60px;
+    background-color: orangered;
+    border-radius:10px;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.logo-footer{
+    width: 100px;
+    height:100px;
+    margin-top: 30px;
+}
+
+.input-contato{
+    padding: 5px;
+    border-radius: 10px;
+    border:none;
+}
+
+
+
+
